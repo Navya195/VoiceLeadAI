@@ -1,0 +1,21 @@
+import os
+from pathlib import Path
+from dotenv import load_dotenv
+
+# Load .env file from backend root
+BASE_DIR = Path(__file__).resolve().parent.parent
+load_dotenv(BASE_DIR / ".env")
+
+class Settings:
+    GROQ_API_KEY: str = os.getenv("GROQ_API_KEY", "").strip()
+    GEMINI_API_KEY: str = os.getenv("GEMINI_API_KEY", "").strip()
+    MONGODB_URI: str = os.getenv("MONGODB_URI", "mongodb://127.0.0.1:27017/")
+    DATABASE_NAME: str = os.getenv("DATABASE_NAME", "voxsales_db")
+    PORT: int = int(os.getenv("PORT", "8000"))
+    HOST: str = os.getenv("HOST", "127.0.0.1")
+    ADMIN_SECRET_KEY: str = os.getenv("ADMIN_SECRET_KEY", "voxsales_admin_secret_2026")
+    KB_FILE_PATH: Path = BASE_DIR / "data" / "courses_knowledge_base.txt"
+    FAISS_INDEX_PATH: Path = BASE_DIR / "data" / "faiss_index.bin"
+    CHUNKS_FILE_PATH: Path = BASE_DIR / "data" / "kb_chunks.json"
+
+settings = Settings()

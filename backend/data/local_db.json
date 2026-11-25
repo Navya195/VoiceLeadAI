@@ -1,0 +1,602 @@
+{
+  "slots": [],
+  "leads": [
+    {
+      "$or": [
+        {
+          "email": "navyatera36@gmail.com"
+        },
+        {
+          "phone": "8688694845"
+        }
+      ],
+      "sentiment": "Positive",
+      "created_at": "2026-11-25T20:31:54.651851",
+      "name": "Tera Navya",
+      "email": "navyatera36@gmail.com",
+      "phone": "8688694845",
+      "interested_course": "Tech Consultation",
+      "lead_score": 100,
+      "lead_category": "Hot",
+      "appointment_id": "33ae4f28-5c4c-4287-8f50-cdcfd3cef74e",
+      "appointment_slot": "2026-11-26 10:00 AM",
+      "updated_at": "2026-11-25T20:31:54.651851",
+      "_id": "a4230d58-dc1f-44d8-bee5-6c9a0245997f"
+    },
+    {
+      "$or": [
+        {
+          "email": "mani@gmail.com"
+        },
+        {
+          "phone": "690356778"
+        }
+      ],
+      "sentiment": "Positive",
+      "created_at": "2026-11-25T20:37:34.995521",
+      "name": "Manisha",
+      "email": "mani@gmail.com",
+      "phone": "690356778",
+      "interested_course": "Java Enterprise & Microservices",
+      "lead_score": 100,
+      "lead_category": "Hot",
+      "appointment_id": "af5f9b57-e4c1-4c5d-bf8f-6b13eb6cfa17",
+      "appointment_slot": "2026-11-26 02:00 PM",
+      "updated_at": "2026-11-25T20:37:34.995521",
+      "_id": "7af62a7a-c472-4dc5-b8fd-68cf025a857f"
+    },
+    {
+      "name": "Navya",
+      "email": "aditya.sharma@gmail.com",
+      "phone": "+91 98765 43210",
+      "interested_course": "Python Programming & Automation",
+      "lead_score": 40,
+      "lead_category": "Warm",
+      "sentiment": "Neutral",
+      "summary": "Navya inquired about Python Programming & Automation. Recent question: \"Hello my Syed my name is Navya. I wanted to inquire about Python course.\". Qualified as Warm (40/100) with Neutral interest.",
+      "updated_at": "2026-11-25T20:38:58.824788",
+      "created_at": "2026-11-25T20:38:58.824788",
+      "_id": "e36c5b33-ef8e-41ed-b2fa-67dfd60ac700"
+    },
+    {
+      "name": "Kavya Deshmukh",
+      "email": "kavya.d@gmail.com",
+      "phone": "+91 95432 10987",
+      "interested_course": "Full Stack",
+      "lead_score": 40,
+      "lead_category": "Warm",
+      "sentiment": "Positive",
+      "summary": "Kavya Deshmukh inquired about Full Stack. Recent question: \"How about full stack syllabus and placements?\". Qualified as Warm (40/100) with Positive interest.",
+      "updated_at": "2026-11-25T20:39:48.834690",
+      "created_at": "2026-11-25T20:39:48.834690",
+      "_id": "089dd20b-8792-4b48-a3c2-d0498f4177fe"
+    },
+    {
+      "$or": [
+        {
+          "email": "divya@gmail.com"
+        },
+        {
+          "phone": "9989563578"
+        }
+      ],
+      "sentiment": "Positive",
+      "created_at": "2026-11-25T20:48:47.918263",
+      "name": "divya",
+      "email": "divya@gmail.com",
+      "phone": "9989563578",
+      "interested_course": "Full Stack Web Development (MERN)",
+      "lead_score": 100,
+      "lead_category": "Hot",
+      "appointment_id": "9fa6aa28-0237-4bbc-9228-4d4b05fb2493",
+      "appointment_slot": "2026-11-27 10:00 AM",
+      "updated_at": "2026-11-25T20:48:47.918263",
+      "_id": "d8e00cb5-43cb-4300-8fce-2536ee5a10a7"
+    },
+    {
+      "$or": [
+        {
+          "email": "mounika@gmail.com"
+        },
+        {
+          "phone": "9874367892"
+        }
+      ],
+      "sentiment": "Positive",
+      "created_at": "2026-11-25T21:07:02.947923",
+      "name": "mounika",
+      "email": "mounika@gmail.com",
+      "phone": "9874367892",
+      "interested_course": "Python Programming & Automation",
+      "lead_score": 100,
+      "lead_category": "Hot",
+      "appointment_id": "9b592ab3-23c7-493b-be39-a19742cd0e5f",
+      "appointment_slot": "2026-11-28 10:00 AM",
+      "updated_at": "2026-11-25T21:07:02.947923",
+      "_id": "eb0a172b-6117-46f8-ba95-c68d546ecbdf"
+    },
+    {
+      "name": "Not Satisfied",
+      "email": "manish.k@outlook.com",
+      "phone": "+91 94321 09876",
+      "interested_course": "Python Programming & Automation",
+      "lead_score": 20,
+      "lead_category": "Cold",
+      "sentiment": "Negative",
+      "summary": "Not Satisfied inquired about Tech Cohorts. Recent question: \"I am not satisfied with the courses which you mentioned now.\". Qualified as Cold (20/100) with Negative interest.",
+      "updated_at": "2026-11-25T21:16:59.583808",
+      "created_at": "2026-11-25T21:16:59.583808",
+      "_id": "7a65ee17-ee72-426c-8fc4-2eb7fe29ef2d"
+    },
+    {
+      "email": "siva@gmail.com",
+      "created_at": "2026-11-25T21:32:40.977088",
+      "name": "Siva",
+      "phone": "+91 93210 98765",
+      "interested_course": "Python Programming & Automation",
+      "lead_score": 40,
+      "lead_category": "Warm",
+      "sentiment": "Neutral",
+      "summary": "Siva inquired about Tech Cohorts. Recent question: \"\u0915\u094b\u0930\u094d\u0938\u0947\u091c \u092e\u0947\u0902 \u0915\u094c\u0928 \u0938\u0940 \u0905\u091a\u094d\u091b\u093e \u0939\u0948?\". Qualified as Warm (40/100) with Neutral interest.",
+      "updated_at": "2026-11-25T21:36:10.595207",
+      "_id": "89d5e73d-3da3-4699-92ff-e1f105a2d83b"
+    },
+    {
+      "email": "siva@gmail.com.",
+      "created_at": "2026-11-25T21:34:48.651774",
+      "name": "Siva And",
+      "phone": "+91 97654 32109",
+      "interested_course": "AI, Machine Learning & LLM Specialist",
+      "lead_score": 60,
+      "lead_category": "Warm",
+      "sentiment": "Positive",
+      "summary": "Siva And inquired about AI, Machine Learning & LLM Specialist. Recent question: \"My name is Siva and my email is siva@gmail.com. Please greet me personally by na\". Qualified as Warm (60/100) with Positive interest.",
+      "updated_at": "2026-11-25T21:34:48.651774",
+      "_id": "59bc1f99-f6e4-47c0-ade8-891df5084178"
+    },
+    {
+      "name": "Ananya Patel",
+      "email": "ananya.p@gmail.com",
+      "phone": "+91 98901 23456",
+      "interested_course": "AI, Machine Learning & LLM Specialist",
+      "lead_score": 30,
+      "lead_category": "Cold",
+      "sentiment": "Neutral",
+      "summary": "Ananya Patel inquired about AI, Machine Learning & LLM Specialist. Recent question: \"The courses available.\". Qualified as Cold (30/100) with Neutral interest.",
+      "updated_at": "2026-11-25T21:35:13.137867",
+      "created_at": "2026-11-25T21:35:13.137867",
+      "_id": "ce7799fe-c2b7-4991-9df5-a1975ccab5e4"
+    }
+  ],
+  "appointments": [
+    {
+      "customer_name": "Tera Navya",
+      "email": "navyatera36@gmail.com",
+      "phone": "8688694845",
+      "course": "Tech Consultation",
+      "slot_date": "2026-11-26",
+      "slot_time": "10:00 AM",
+      "status": "Confirmed",
+      "notes": "Test booking",
+      "created_at": "2026-11-25T20:31:54.651851",
+      "_id": "33ae4f28-5c4c-4287-8f50-cdcfd3cef74e"
+    },
+    {
+      "customer_name": "Manisha",
+      "email": "mani@gmail.com",
+      "phone": "690356778",
+      "course": "Java Enterprise & Microservices",
+      "slot_date": "2026-11-26",
+      "slot_time": "02:00 PM",
+      "status": "Confirmed",
+      "notes": "Counseling booked via VoxSales AI interface",
+      "created_at": "2026-11-25T20:37:34.995521",
+      "_id": "af5f9b57-e4c1-4c5d-bf8f-6b13eb6cfa17"
+    },
+    {
+      "customer_name": "divya",
+      "email": "divya@gmail.com",
+      "phone": "9989563578",
+      "course": "Full Stack Web Development (MERN)",
+      "slot_date": "2026-11-27",
+      "slot_time": "10:00 AM",
+      "status": "Confirmed",
+      "notes": "Counseling booked via VoxSales AI interface",
+      "created_at": "2026-11-25T20:48:47.918263",
+      "_id": "9fa6aa28-0237-4bbc-9228-4d4b05fb2493"
+    },
+    {
+      "customer_name": "mounika",
+      "email": "mounika@gmail.com",
+      "phone": "9874367892",
+      "course": "Python Programming & Automation",
+      "slot_date": "2026-11-28",
+      "slot_time": "10:00 AM",
+      "status": "Confirmed",
+      "notes": "Counseling booked via VoxSales AI interface",
+      "created_at": "2026-11-25T21:07:02.947923",
+      "_id": "9b592ab3-23c7-493b-be39-a19742cd0e5f"
+    }
+  ],
+  "conversations": [
+    {
+      "session_id": "sess_5f1ec6343e75",
+      "created_at": "2026-11-25T20:38:25.341175",
+      "lead_id": null,
+      "customer_name": null,
+      "customer_phone": null,
+      "customer_email": null,
+      "messages": [
+        {
+          "role": "user",
+          "content": "You miss Navya.",
+          "mode": "voice",
+          "timestamp": "2026-11-25T20:38:25.341046"
+        },
+        {
+          "role": "assistant",
+          "content": "We offer career cohorts in Python, Java Microservices, Full Stack MERN/Next.js, AI & Machine Learning, and DSA for placements. Which domain excites you the most, and what questions can I answer for you?",
+          "timestamp": "2026-11-25T20:38:25.341107"
+        }
+      ],
+      "last_message": "You miss Navya.",
+      "sentiment": "Neutral",
+      "lead_score": 10,
+      "lead_category": "Cold",
+      "updated_at": "2026-11-25T20:38:25.341175",
+      "_id": "d5ffa46c-a8e4-4933-a602-cacbb0366cd6"
+    },
+    {
+      "session_id": "sess_eb76cf8df732",
+      "created_at": "2026-11-25T20:38:58.824788",
+      "lead_id": "e36c5b33-ef8e-41ed-b2fa-67dfd60ac700",
+      "customer_name": "Navya",
+      "customer_phone": null,
+      "customer_email": null,
+      "messages": [
+        {
+          "role": "user",
+          "content": "Hello my Syed my name is Navya. I wanted to inquire about Python course.",
+          "mode": "voice",
+          "timestamp": "2026-11-25T20:38:58.824672"
+        },
+        {
+          "role": "assistant",
+          "content": "Our Python Programming & Automation Bootcamp (12 weeks, INR 3,499) covers Core & Advanced Python, Data libraries (NumPy, Pandas), PostgreSQL/SQLite, and FastAPI REST APIs, with 100% placement support. Would you like to know about the syllabus, batch timings, or fees?",
+          "timestamp": "2026-11-25T20:38:58.824718"
+        }
+      ],
+      "last_message": "Hello my Syed my name is Navya. I wanted to inquire about Python course.",
+      "sentiment": "Neutral",
+      "lead_score": 40,
+      "lead_category": "Warm",
+      "updated_at": "2026-11-25T20:38:58.824788",
+      "_id": "f46b9e94-53f1-49f1-bf41-d4c6e4364ea6"
+    },
+    {
+      "session_id": "sess_f82f412e2aab",
+      "created_at": "2026-11-25T20:39:48.834690",
+      "lead_id": "089dd20b-8792-4b48-a3c2-d0498f4177fe",
+      "customer_name": null,
+      "customer_phone": null,
+      "customer_email": null,
+      "messages": [
+        {
+          "role": "user",
+          "content": "How about full stack syllabus and placements?",
+          "mode": "voice",
+          "timestamp": "2026-11-25T20:39:48.834565"
+        },
+        {
+          "role": "assistant",
+          "content": "Our Full Stack Web Development bootcamp covers advanced frontend with TypeScript and React 18, server-side Next.js 14, Node.js and Express APIs, MongoDB and PostgreSQL databases, and DevOps with Docker and AWS. Graduates achieve average starting packages between 6.0 and 14 LPA as Full Stack or Frontend Engineers. Would you like to share your background so I can recommend the right batch for you?",
+          "timestamp": "2026-11-25T20:39:48.834601"
+        }
+      ],
+      "last_message": "How about full stack syllabus and placements?",
+      "sentiment": "Positive",
+      "lead_score": 40,
+      "lead_category": "Warm",
+      "updated_at": "2026-11-25T20:39:48.834690",
+      "_id": "3be2fb73-c3f9-4932-8a45-35f1984fd109"
+    },
+    {
+      "session_id": "sess_87d454c56ae7",
+      "created_at": "2026-11-25T21:12:04.587976",
+      "lead_id": null,
+      "customer_name": null,
+      "customer_phone": null,
+      "customer_email": null,
+      "messages": [
+        {
+          "role": "user",
+          "content": "Want to take any courses which you mentioned in the above.",
+          "mode": "voice",
+          "timestamp": "2026-11-25T21:12:04.587861"
+        },
+        {
+          "role": "assistant",
+          "content": "We offer career cohorts in Python, Java Microservices, Full Stack MERN/Next.js, AI & Machine Learning, and DSA for placements. Which domain excites you the most, and what questions can I answer for you?",
+          "timestamp": "2026-11-25T21:12:04.587905"
+        }
+      ],
+      "last_message": "Want to take any courses which you mentioned in the above.",
+      "sentiment": "Neutral",
+      "lead_score": 10,
+      "lead_category": "Cold",
+      "updated_at": "2026-11-25T21:12:04.587976",
+      "_id": "12a54f2a-697c-4cdf-acf8-3ce4d1534845"
+    },
+    {
+      "session_id": "sess_netpsrg7",
+      "created_at": "2026-11-25T21:15:22.781806",
+      "lead_id": null,
+      "customer_name": null,
+      "customer_phone": null,
+      "customer_email": null,
+      "messages": [
+        {
+          "role": "user",
+          "content": "i dont want any couses",
+          "mode": "text",
+          "timestamp": "2026-11-25T21:15:22.781674"
+        },
+        {
+          "role": "assistant",
+          "content": "We offer career cohorts in Python, Java Microservices, Full Stack MERN/Next.js, AI & Machine Learning, and DSA for placements. Which domain excites you the most, and what questions can I answer for you?",
+          "timestamp": "2026-11-25T21:15:22.781727"
+        },
+        {
+          "role": "user",
+          "content": "the fee is too much for the cursors",
+          "mode": "text",
+          "timestamp": "2026-11-25T21:15:51.448224"
+        },
+        {
+          "role": "assistant",
+          "content": "Our course fee is INR 3,299 to INR 4,999 with zero-interest EMI options and up to 25% merit scholarships. Which program are you considering?",
+          "timestamp": "2026-11-25T21:15:51.448274"
+        }
+      ],
+      "last_message": "the fee is too much for the cursors",
+      "sentiment": "Neutral",
+      "lead_score": 15,
+      "lead_category": "Cold",
+      "updated_at": "2026-11-25T21:15:51.448359",
+      "_id": "f1e245fd-b91c-4d2d-8fa1-4ec06033e3b7"
+    },
+    {
+      "session_id": "sess_66c2c5260ea5",
+      "created_at": "2026-11-25T21:16:43.228093",
+      "lead_id": null,
+      "customer_name": null,
+      "customer_phone": null,
+      "customer_email": null,
+      "messages": [
+        {
+          "role": "user",
+          "content": "He is too much for the courses.",
+          "mode": "voice",
+          "timestamp": "2026-11-25T21:16:43.227998"
+        },
+        {
+          "role": "assistant",
+          "content": "I completely understand that investing in your education is a significant decision. We offer flexible no-cost EMI options starting at just INR 833 per month to make our programs accessible, as well as merit-based scholarships up to 25% off. Which specific course are you looking at, and how can we best support your budget?",
+          "timestamp": "2026-11-25T21:16:43.228036"
+        }
+      ],
+      "last_message": "He is too much for the courses.",
+      "sentiment": "Neutral",
+      "lead_score": 10,
+      "lead_category": "Cold",
+      "updated_at": "2026-11-25T21:16:43.228093",
+      "_id": "c2b015e2-5cf6-4780-b313-8f1ee684cd33"
+    },
+    {
+      "session_id": "sess_92bf386893bc",
+      "created_at": "2026-11-25T21:16:59.583808",
+      "lead_id": "7a65ee17-ee72-426c-8fc4-2eb7fe29ef2d",
+      "customer_name": "Not Satisfied",
+      "customer_phone": null,
+      "customer_email": null,
+      "messages": [
+        {
+          "role": "user",
+          "content": "I am not satisfied with the courses which you mentioned now.",
+          "mode": "voice",
+          "timestamp": "2026-11-25T21:16:59.583704"
+        },
+        {
+          "role": "assistant",
+          "content": "I understand your perspective, and I'd love to help you find the right fit. Could you share what specific technical skills or career goals you are looking for so I can suggest a better option?",
+          "timestamp": "2026-11-25T21:16:59.583747"
+        }
+      ],
+      "last_message": "I am not satisfied with the courses which you mentioned now.",
+      "sentiment": "Negative",
+      "lead_score": 20,
+      "lead_category": "Cold",
+      "updated_at": "2026-11-25T21:16:59.583808",
+      "_id": "5fef8a1a-f801-48f4-8028-e2b236db9d37"
+    },
+    {
+      "session_id": "sess_c26714907943",
+      "created_at": "2026-11-25T21:29:58.751430",
+      "lead_id": null,
+      "customer_name": null,
+      "customer_phone": null,
+      "customer_email": null,
+      "messages": [
+        {
+          "role": "user",
+          "content": "Hi. Hi.",
+          "mode": "voice",
+          "timestamp": "2026-11-25T21:29:58.751320"
+        },
+        {
+          "role": "assistant",
+          "content": "Hello and welcome to VoxSales Academy! How can I assist you with our tech bootcamps and career programs today?",
+          "timestamp": "2026-11-25T21:29:58.751368"
+        }
+      ],
+      "last_message": "Hi. Hi.",
+      "sentiment": "Positive",
+      "lead_score": 10,
+      "lead_category": "Cold",
+      "updated_at": "2026-11-25T21:29:58.751430",
+      "_id": "642e3339-0e58-45a1-97f5-42e5996b7a68"
+    },
+    {
+      "session_id": "sess_h75m1exj",
+      "created_at": "2026-11-25T21:32:40.977088",
+      "lead_id": "89d5e73d-3da3-4699-92ff-e1f105a2d83b",
+      "customer_name": "Siva",
+      "customer_phone": null,
+      "customer_email": "siva@gmail.com",
+      "messages": [
+        {
+          "role": "user",
+          "content": "My name is Siva and my email is siva@gmail.com. Please greet me personally by name and welcome me to VoiceLead AI.",
+          "mode": "text",
+          "timestamp": "2026-11-25T21:32:40.976755"
+        },
+        {
+          "role": "assistant",
+          "content": "Welcome to VoxSales Academy, Siva! It's wonderful to have you here, and your email has been successfully noted. Which of our technical programs or bootcamps are you interested in exploring today?",
+          "timestamp": "2026-11-25T21:32:40.976821"
+        }
+      ],
+      "last_message": "My name is Siva and my email is siva@gmail.com. Please greet me personally by name and welcome me to VoiceLead AI.",
+      "sentiment": "Positive",
+      "lead_score": 60,
+      "lead_category": "Warm",
+      "updated_at": "2026-11-25T21:32:40.977088",
+      "_id": "f4406c4e-bff0-4249-ac2c-5c498285ea42"
+    },
+    {
+      "session_id": "sess_fhvelf1z",
+      "created_at": "2026-11-25T21:34:48.651774",
+      "lead_id": "89d5e73d-3da3-4699-92ff-e1f105a2d83b",
+      "customer_name": "Siva",
+      "customer_phone": null,
+      "customer_email": "siva@gmail.com",
+      "messages": [
+        {
+          "role": "user",
+          "content": "My name is Siva and my email is siva@gmail.com. Please greet me personally by name and welcome me to VoiceLead AI.",
+          "mode": "text",
+          "timestamp": "2026-11-25T21:34:48.651656"
+        },
+        {
+          "role": "assistant",
+          "content": "Thank you so much, Siva And! I have recorded your contact details for AI, Machine Learning & LLM Specialist. Our senior academic mentor will share the complete syllabus PDF and scholarship evaluation. Would you also like to reserve a free counseling slot for tomorrow?",
+          "timestamp": "2026-11-25T21:34:48.651705"
+        },
+        {
+          "role": "user",
+          "content": "\u0915\u094d\u092f\u093e \u0915\u094b\u0930\u094d\u0938\u0947\u0938 \u0905\u0935\u0947\u0932\u0947\u092c\u0932 \u0939\u0948? \u0928\u093e?",
+          "mode": "voice",
+          "timestamp": "2026-11-25T21:35:30.406826"
+        },
+        {
+          "role": "assistant",
+          "content": "We offer 5 live cohort bootcamps at VoxSales Academy: Python Programming & Automation, Java Enterprise & Microservices, Full Stack Web Development, AI, Machine Learning & LLM Specialist, and DSA & System Design Masterclass. Which of these technology domains sparks your interest the most?",
+          "timestamp": "2026-11-25T21:35:30.406867"
+        },
+        {
+          "role": "user",
+          "content": "\u0906\u092a\u0928\u0947 \u0905\u0902\u0924\u0930\u093e\u0964",
+          "mode": "voice",
+          "timestamp": "2026-11-25T21:35:32.594293"
+        },
+        {
+          "role": "assistant",
+          "content": "I apologize if my previous answer was unclear! Could you please repeat or clarify what you would like to know about our courses or programs at VoxSales Academy?",
+          "timestamp": "2026-11-25T21:35:32.594330"
+        },
+        {
+          "role": "user",
+          "content": "\u0915\u094b\u0930\u094d\u0938\u0947\u091c \u092e\u0947\u0902 \u0915\u094c\u0928 \u0938\u0940 \u0905\u091a\u094d\u091b\u093e \u0939\u0948?",
+          "mode": "voice",
+          "timestamp": "2026-11-25T21:36:10.594921"
+        },
+        {
+          "role": "assistant",
+          "content": "All of our five bootcamps are industry-leading and designed for high-demand tech roles. If you love building user-facing applications, our Full Stack Web Development program is fantastic, whereas our AI and Machine Learning program is ideal if you are fascinated by artificial intelligence. What kind of career role or technology are you most drawn to?",
+          "timestamp": "2026-11-25T21:36:10.595094"
+        },
+        {
+          "role": "user",
+          "content": "\u090f\u0902\u0921\u093f\u0902\u0917 \u0938\u092c \u0915\u094b\u0930\u094d\u0938\u0947\u091c \u0928\u0939\u0940\u0902 \u092a\u0938\u0902\u0926 \u0939\u0948\u0964",
+          "mode": "voice",
+          "timestamp": "2026-11-25T21:36:30.730833"
+        },
+        {
+          "role": "assistant",
+          "content": "We offer career cohorts in Python, Java Microservices, Full Stack MERN/Next.js, AI & Machine Learning, and DSA for placements. Which domain excites you the most, and what questions can I answer for you?",
+          "timestamp": "2026-11-25T21:36:30.730877"
+        }
+      ],
+      "last_message": "\u0915\u094b\u0930\u094d\u0938\u0947\u091c \u092e\u0947\u0902 \u0915\u094c\u0928 \u0938\u0940 \u0905\u091a\u094d\u091b\u093e \u0939\u0948?",
+      "sentiment": "Neutral",
+      "lead_score": 40,
+      "lead_category": "Warm",
+      "updated_at": "2026-11-25T21:36:10.595207",
+      "_id": "9061f615-bd0f-4be7-a48f-1ab39a5e4550"
+    },
+    {
+      "session_id": "sess_b5eb5611078c",
+      "created_at": "2026-11-25T21:35:13.137867",
+      "lead_id": "ce7799fe-c2b7-4991-9df5-a1975ccab5e4",
+      "customer_name": null,
+      "customer_phone": null,
+      "customer_email": null,
+      "messages": [
+        {
+          "role": "user",
+          "content": "The courses available.",
+          "mode": "voice",
+          "timestamp": "2026-11-25T21:35:13.137772"
+        },
+        {
+          "role": "assistant",
+          "content": "We offer five comprehensive live bootcamps at VoxSales Academy: Python Programming & Automation at INR 3,499, Java Enterprise & Microservices at INR 3,999, Full Stack Web Development at INR 4,499, AI, Machine Learning & LLM Specialist at INR 4,999, and DSA & System Design for Placements at INR 3,299. Which of these technical domains aligns best with your career goals?",
+          "timestamp": "2026-11-25T21:35:13.137812"
+        }
+      ],
+      "last_message": "The courses available.",
+      "sentiment": "Neutral",
+      "lead_score": 30,
+      "lead_category": "Cold",
+      "updated_at": "2026-11-25T21:35:13.137867",
+      "_id": "58367078-3512-41e7-9f3a-20b9e98702e4"
+    },
+    {
+      "session_id": "sess_nb8gxt6e",
+      "created_at": "2026-11-25T21:36:59.347310",
+      "lead_id": null,
+      "customer_name": null,
+      "customer_phone": null,
+      "customer_email": null,
+      "messages": [
+        {
+          "role": "user",
+          "content": "\u0c2e\u0c40\u0c30\u0c41 \u0c07\u0c1a\u0c4d\u0c1a\u0c3f\u0c28 \u0c15\u0c4b\u0c30\u0c4d\u0c38\u0c46\u0c38\u0c4d \u0c32\u0c4b \u0c28\u0c3e\u0c15\u0c41 \u0c12\u0c15\u0c4d\u0c15\u0c1f\u0c3f \u0c15\u0c42\u0c21\u0c3e \u0c28\u0c1a\u0c4d\u0c1a\u0c1f\u0c4d\u0c32\u0c47.",
+          "mode": "voice",
+          "timestamp": "2026-11-25T21:36:59.347190"
+        },
+        {
+          "role": "assistant",
+          "content": "We offer career cohorts in Python, Java Microservices, Full Stack MERN/Next.js, AI & Machine Learning, and DSA for placements. Which domain excites you the most, and what questions can I answer for you?",
+          "timestamp": "2026-11-25T21:36:59.347239"
+        }
+      ],
+      "last_message": "\u0c2e\u0c40\u0c30\u0c41 \u0c07\u0c1a\u0c4d\u0c1a\u0c3f\u0c28 \u0c15\u0c4b\u0c30\u0c4d\u0c38\u0c46\u0c38\u0c4d \u0c32\u0c4b \u0c28\u0c3e\u0c15\u0c41 \u0c12\u0c15\u0c4d\u0c15\u0c1f\u0c3f \u0c15\u0c42\u0c21\u0c3e \u0c28\u0c1a\u0c4d\u0c1a\u0c1f\u0c4d\u0c32\u0c47.",
+      "sentiment": "Neutral",
+      "lead_score": 10,
+      "lead_category": "Cold",
+      "updated_at": "2026-11-25T21:36:59.347310",
+      "_id": "92884e3c-b942-41ef-8a4b-61c43ed9e105"
+    }
+  ]
+}
