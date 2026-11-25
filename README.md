@@ -1,46 +1,69 @@
-# VoiceLead AI — Autonomous AI Sales Voice Assistant
+# 🎙️ VoiceLead AI – Autonomous AI Sales Voice Agent
 
-**VoiceLead AI** is a full-stack autonomous AI sales voice agent built for real-time customer consultations, lead qualification, RAG-powered course Q&A, and 1-on-1 counseling appointment booking.
+**VoiceLead AI** is an AI-powered sales voice agent designed to automate customer conversations, understand customer requirements, qualify potential leads, and simplify appointment booking through intelligent voice interactions.
+
+The system combines speech recognition, natural language processing, contextual memory, and AI-powered knowledge retrieval to deliver more natural and personalized sales conversations.
+
+## 🚀 Key Features
+
+- **Real-Time Voice Interaction:** Enables natural conversations using Speech-to-Text (STT) and Text-to-Speech (TTS).
+- **Contextual Memory:** Maintains conversation context to provide relevant responses.
+- **Multilingual Communication:** Supports communication across multiple languages.
+- **Intelligent Lead Qualification:** Identifies and qualifies potential customers based on their requirements.
+- **Sentiment Analysis:** Understands customer sentiment during conversations.
+- **RAG-Based Knowledge Retrieval:** Retrieves relevant information from a knowledge base to generate context-aware responses.
+- **Automated Appointment Booking:** Helps customers schedule appointments through voice interactions.
+- **CRM Integration:** Organizes and manages lead information and customer interactions.
+
+## ⚙️ How It Works
+
+1. The customer interacts with the AI voice agent.
+2. Speech-to-Text converts the customer's voice into text.
+3. The AI processes the message and understands the customer's intent.
+4. Contextual memory and RAG retrieve relevant information.
+5. The system qualifies the lead and analyzes customer sentiment.
+6. Text-to-Speech converts the generated response into voice.
+7. Appointment details and lead information are managed through the system.
+
+
+<img width="1897" height="1006" alt="image" src="https://github.com/user-attachments/assets/641c73bd-5ed4-4b7a-bbb8-28f4443cbc6f" />
+
+
+## 🎯 Project Objective
+
+The primary objective of VoiceLead AI is to reduce manual sales efforts, improve customer engagement, automate repetitive sales conversations, and help businesses manage potential customers more efficiently.
+
+## 💡 Real-World Applications
+
+- Sales and marketing automation
+- Customer support and engagement
+- Lead generation and qualification
+- Appointment scheduling
+- Business communication
+
+## 🛠️ Technology Stack
+
+The project uses AI-powered voice processing, speech recognition, natural language processing, contextual memory, RAG-based retrieval, sentiment analysis, and CRM-related functionality.
+
+*Refer to the source code for the specific frameworks, libraries, and tools used in the implementation.*
+
+🏗️ VoiceLead AI – System Architecture
+
+
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/ecaa7723-26d5-4716-bd64-a48407bf3520" />
+
+
+
+## 📌 Project Type
+
+AI / Machine Learning | Generative AI | Agentic AI | Voice Automation
+
+## 👩‍💻 Developed By
+
+**Tera Navya**
+
+GitHub: [Navya195](https://github.com/Navya195)
 
 ---
 
-## Core Capabilities
-
-- **Live Voice Consultation (STT + TTS)**: Real-time browser speech recognition (`SpeechRecognition`) and synchronized voice playback (`SpeechSynthesis`) with multilingual support.
-- **Customer Details Onboarding**: Dedicated right-side Customer Details Dashboard requiring Full Name and Gmail Address before initiating a personalized AI voice session.
-- **Contextual AI Responses (Groq / Gemini + RAG)**: Combines **FAISS** vector search (`all-MiniLM-L6-v2`) with **Groq (`llama-3.3-70b-versatile`)** / **Gemini** to answer course, fee, syllabus, and placement questions using conversation history.
-- **Lead Qualification & CRM**: Automatic 0–100 lead scoring (**Hot**, **Warm**, **Cold**), sentiment analysis, and contact extraction.
-- **Appointment Scheduling**: Conflict-free 1-on-1 counseling slot booking with persistent storage (`MongoDB` or automatic `local_db.json` fallback).
-- **Executive Overview Dashboard**: Live KPIs, 7-day activity charts, course interest breakdown, and recent qualified leads.
-
----
-
-## Tech Stack
-
-| Layer | Technology |
-| :--- | :--- |
-| **Frontend** | React, Vite, Tailwind CSS, Lucide Icons |
-| **Backend** | Python, FastAPI, Uvicorn |
-| **AI & RAG** | Groq (`llama-3.3-70b-versatile`), Google Gemini, FAISS, Sentence Transformers (`all-MiniLM-L6-v2`) |
-| **Database** | MongoDB (with persistent local JSON fallback) |
-| **Voice** | Web Speech API (`SpeechRecognition` & `SpeechSynthesis`) |
-
----
-
-## Quick Start
-
-### 1. Backend
-```bash
-cd backend
-pip install -r requirements.txt
-python -m uvicorn app.main:app --host 127.0.0.1 --port 8000 --reload
-```
-
-### 2. Frontend
-```bash
-cd frontend
-npm install
-npm run dev
-```
-
-Open **http://localhost:5173/** in your browser.
+⭐ If you find this project interesting, consider giving the repository a star!
